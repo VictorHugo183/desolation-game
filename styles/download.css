@@ -1,0 +1,64 @@
+  html{
+    height: 100%;
+  }
+  
+  body{
+    font-family: 'Alegreya Sans', sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-banner{
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../images/banners/Forest.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #eee;
+    position: relative;
+    overflow: hidden;
+    min-height: 30vh;
+    flex-wrap: wrap;
+  }
+
+.header-text{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 5rem;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.download-container{
+  margin-top: 0.5rem;
+  text-align: center;
+  color: #d8d8d8;
+}
+
+.btn-warning{
+  background-color: #ffca2ae1;
+  color: rgb(8, 8, 8);
+  font-size: 1.5rem;
+  padding: 0.5rem 1.5rem;
+}
+
+footer{
+  margin-top: auto;
+}
+
+@media (max-width: 600px){
+  .header-text{
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 400px){
+  .header-text{
+    font-size: 2.5rem;
+  }
+}

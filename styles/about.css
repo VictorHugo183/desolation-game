@@ -1,0 +1,86 @@
+  .header-banner{
+    /* margin-top: -5rem; */
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../images/banners/Forest.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #eee;
+    position: relative;
+    overflow: hidden;
+    min-height: 30vh;
+    flex-wrap: wrap;
+  }
+
+.header-text{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 5rem;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.about-container{
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.about-section-header{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  color: #d8d8d8;
+  border-bottom: 1px solid #ccc;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-item{
+  text-align: center;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #d8d8d8;
+  margin: 0 auto;
+}
+
+.about-heading{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 500;
+  color: #eee;
+  background: linear-gradient(180deg, rgba(10,10,10,1) 0%, rgba(30,30,30,1) 0%, rgba(40,40,40,1) 100%);
+  border-radius: 5px;
+}
+
+.about-heading:hover{
+  color: #fff;
+  background: linear-gradient(180deg, rgba(10,10,10,1) 0%, rgba(40,40,40,1) 0%, rgba(60,60,60,1) 100%);
+}
+
+.about-content{
+  line-height: 1.5;
+}
+
+.spec-list{
+  list-style-position:inside;
+  text-align: start;
+}
+
+@media(max-width: 1200px){
+  .about-container{
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px){
+  .header-text{
+    font-size: 3.5rem;
+  }
+  .about-container{
+    width: 95%;
+  }
+}

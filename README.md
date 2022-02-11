@@ -31,6 +31,11 @@ A fully responsive, fast and SEO friendly website that showcases a video game I 
 ### Lighthouse scores:
 <img src="https://user-images.githubusercontent.com/60555502/153652660-fbb47884-7079-4795-a276-ff40fce6f835.png" />
 
+### About the game:
+Desolation is an action RPG video game for PC developed using RPG Maker VX Ace, it has a massive world with over 400 maps and takes about 14 hours to complete.<br>
+This is a solo project which involved developing all the maps using both the RPG Maker engine and image editing software, editing and writing custom scripts in RGSS - a scripting language based on Ruby, story writing, game design and extensive testing.<br>
+Find out more about the game by visiting the <a href="https://victorhugo183.github.io/desolation-game/" target="_blank">website.</a>
+
 ### Change Log:
 v1.1.0
 <ul>

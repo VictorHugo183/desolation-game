@@ -374,17 +374,29 @@ footer > h2 {
   .hero-image{
     max-height: 50%;
   }
+  .hero-text{
+    margin-top: 25rem;
+    margin-bottom: 8rem;
+  }
 }
 
 @media (max-width: 400px) and (max-height: 700px) {
   .hero{
     margin-top: -1rem;
   }
+  .hero-text{
+    margin-top: 25rem;
+    margin-bottom: 8rem;
+  }
 }
 
 @media (max-width: 350px) and (max-height: 570px ){
   .hero{
     margin-top: -6rem;
+  }
+  .hero-text{
+    margin-top: 25rem;
+    margin-bottom: 8rem;
   }
 }
 

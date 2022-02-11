@@ -27,6 +27,14 @@ A fully responsive, fast and SEO friendly website that showcases a video game I 
   <li> Download link to game demo (once the game is ready for demo release). </li>
   <li> Installation guide in download page and a link to a user manual file. </li>
 </ul>
+
+### Change Log:
+v1.1.0
+<ul>
+  <li>Replaced key features GIF with a compressed .MOV video, cutting the file size down by 40%</li>
+  <li>Enabled touch swiping on key features carousel</li>
+  <li>Adjusted main header text for mobile devices</li>
+  </ul>
  
 ### Other Tools Used:
 <ul>

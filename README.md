@@ -11,3 +11,26 @@
 </p>
 
 <p align="center"><em>Desolation is an action RPG game for PC developed by me.</em></p>
+
+### About:
+A fully responsive, fast and SEO friendly website that showcases a video game I built.
+
+### Tech Stack:
+<ul>
+  <li> HTML5, CSS3, JavaScript</li>
+  <li> Bootstrap 5 </li>
+</ul>
+
+### Upcoming Features:
+<ul>
+  <li> Embedded gameplay trailer (once it is made) in the homepage. </li>
+  <li> Download link to game demo (once the game is ready for demo release). </li>
+  <li> Installation guide in download page and a link to a user manual file. </li>
+</ul>
+ 
+### Other Tools Used:
+<ul>
+  <li> https://tinypng.com/ to compress image files with no noticeable loss in quality. </li>
+  <li> https://metatags.io/ to check the validity of HTML meta tags. </li>
+  <li> https://fontawesome.com/ for the footer icons. </li>
+</ul>

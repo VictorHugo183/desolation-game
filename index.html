@@ -109,32 +109,36 @@
         <h2 class="banner-txt">Key Features:</h2>
       </div>
       <!-- Key Features Carousel -->
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="false">
+      <div id="keyFeaturesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false" data-bs-touch="true">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          <button type="button" data-bs-target="#keyFeaturesCarousel" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          <button type="button" data-bs-target="#keyFeaturesCarousel" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          <button type="button" data-bs-target="#keyFeaturesCarousel" data-bs-slide-to="2"
             aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/features/gear-upgrades.jpg" class="d-block w-100 carousel-image" alt="...">
+            <img src="./images/features/gear-upgrades.jpg" class="d-block w-100 carousel-image" alt="Equipment Upgrades">
           </div>
           <div class="carousel-item">
-            <img src="./images/features/quest-log-dark.jpg" class="d-block w-100 carousel-image" alt="...">
+            <img src="./images/features/quest-log-dark.jpg" class="d-block w-100 carousel-image" alt="Quest Journal">
           </div>
           <div class="carousel-item">
-            <img src="./images/features/combat-feature.gif" class="d-block w-100 carousel-image" alt="...">
+            <video autoplay loop muted playsinline class="d-block w-100 carousel-image">
+              <source src="./images/features/combat-video.webm" type="video/webm">
+              Your browser does not support the video tag.
+            </video>
+            <!-- <img src="./images/features/combat-feature.gif" class="d-block w-100 carousel-image" alt="Action Combat System"> -->
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-prev" type="button" data-bs-target="#keyFeaturesCarousel"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        <button class="carousel-control-next" type="button" data-bs-target="#keyFeaturesCarousel"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
@@ -162,12 +166,12 @@
                 data-bs-content="Hurl an acid bottle and a bottle grenade at an enemy.">
                 <img class="skill-image" src="./images/skills/acid-demonstration.png" alt="skill">
               </a>
-              <a tabindex="1" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Full Chemical Protection"
                 data-bs-content="Apply a layer of Glistening Coat to your armor to increase defensive stats.">
                 <img class="skill-image" src="./images/skills/chemical-protection.png" alt="skill">
               </a>
-              <a tabindex="2" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Thorn Trap"
                 data-bs-content="The Alchemist's ultimate ability. Damage and immobilize all enemies caught in the trap.">
                 <img class="skill-image" src="./images/skills/wall-of-thorns.png" alt="skill">
@@ -182,27 +186,27 @@
             <p>The assassins inhabit a hidden community within the deep desert. They are skilled in deadly poisons,
               shadow disciplines, and blindingly fast combat.</p>
             <div class="skills-list">
-              <a tabindex="3" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Throw Venom Knife"
                 data-bs-content="Hurl a venom knife at an enemy to poison them.">
                 <img class="skill-image" src="./images/skills/venom-knife.png" alt="skill">
               </a>
-              <a tabindex="4" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Blade Sentinel"
                 data-bs-content="Throw a razor-sharp device that flies forward and then back to you.">
                 <img class="skill-image" src="./images/skills/blade-sentinel.png" alt="skill">
               </a>
-              <a tabindex="5" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Sonic Blow"
                 data-bs-content="Attack with a series of fast hits, ending with a devastating blow.">
                 <img class="skill-image" src="./images/skills/sonic-blow.png" alt="skill">
               </a>
-              <a tabindex="6" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Hallucination Walk"
                 data-bs-content="The Assassin's ultimate ability. Dodge all incoming attacks for a period of time.">
                 <img class="skill-image" src="./images/skills/hallucination-walk.png" alt="skill">
               </a>
-              <a tabindex="7" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Lightning Sentry"
                 data-bs-content=" The Assassin's ultimate ability. Deploy a sentry that fires lightning ahead of you.">
                 <img class="skill-image" src="./images/skills/lightning-sentry.png" alt="skill">
@@ -218,17 +222,17 @@
               adventuring. Gunslingers are flashy warriors that are effective in both ranged and melee combat.
             </p>
             <div class="skills-list">
-              <a tabindex="8" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Dual Pistols"
                 data-bs-content="The gunslinger is able to shoot from afar at incredible speed.">
                 <img class="skill-image" src="./images/skills/pistols.png" alt="skill">
               </a>
-              <a tabindex="9" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Desperado"
                 data-bs-content="Shoot all enemies within a close range around you.">
                 <img class="skill-image" src="./images/skills/desperado.png" alt="skill">
               </a>
-              <a tabindex="10" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Full Blast"
                 data-bs-content="The Gunslinger's ultimate ability. Fires a big and slow moving projectile that deals Area of Effect damage.">
                 <img class="skill-image" src="./images/skills/full-blast.png" alt="skill">
@@ -243,11 +247,11 @@
             <p>Knights are geared towards sword techniques and are trained to endure large amounts of damage. They serve
               the king of Midgard and are the first line of defense for the kingdom.</p>
             <div class="skills-list">
-              <a tabindex="11" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Shout" data-bs-content="Gradually restores HP for a period of time.">
                 <img class="skill-image" src="./images/skills/shout.png" alt="skill">
               </a>
-              <a tabindex="12" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Magnum Break"
                 data-bs-content="The Knight's ultimate ability. Causes a fire blast and deals damage to all enemies around you.">
                 <img class="skill-image" src="./images/skills/magnum-break.png" alt="skill">
@@ -262,27 +266,27 @@
             <p>The Mages study the arcane arts at the Mages Guild. They can dispatch enemies from afar with their
               elemental spells but are vulnerable in close quarters.</p>
             <div class="skills-list">
-              <a tabindex="13" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Fireball"
                 data-bs-content="Hurl a fireball that explodes on impact to deal Area of Effect damage.">
                 <img class="skill-image" src="./images/skills/fireball.png" alt="skill">
               </a>
-              <a tabindex="14" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Frozen Orb"
                 data-bs-content="Hurl a ball of ice that pierces, slows and damages enemies.">
                 <img class="skill-image" src="./images/skills/frozen-orb.png" alt="skill">
               </a>
-              <a tabindex="15" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Charged Bolt"
                 data-bs-content="Shoot three lightning bolts in different directions.">
                 <img class="skill-image" src="./images/skills/charged-bolt.png" alt="skill">
               </a>
-              <a tabindex="16" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Storm Gust"
                 data-bs-content="The Mage's ultimate ability. A blizzard that slows and damage all enemies on your screen">
                 <img class="skill-image" src="./images/skills/storm-gust.png" alt="skill">
               </a>
-              <a tabindex="17" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Poison Nova"
                 data-bs-content="Shoot poison bolts in all directions to damage and poison enemies.">
                 <img class="skill-image" src="./images/skills/poison-nova.png" alt="skill">
@@ -298,12 +302,12 @@
               than their minds. They are martial artists who use a combination of holy magic and their fists to combat
               their enemies.</p>
             <div class="skills-list">
-              <a tabindex="18" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Throw Spirit Sphere"
                 data-bs-content="Summon a spirit sphere and throw it at your enemy.">
                 <img class="skill-image" src="./images/skills/spirit-sphere.png" alt="skill">
               </a>
-              <a tabindex="19" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Asura Strike"
                 data-bs-content="The Monk's ultimate attack. Deals massive Area of Effect damage around you.">
                 <img class="skill-image" src="./images/skills/asura-strike.png" alt="skill">
@@ -318,17 +322,17 @@
             <p>A Paladin's faith is his weapon and his shield. They combine martial prowess with powerful enchantments
               to send monsters back to the abyss.</p>
             <div class="skills-list">
-              <a tabindex="20" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Shield Boomerang"
                 data-bs-content="Throw your shield forward and it returns back to you, dealing damage to all enemies it passes through.">
                 <img class="skill-image" src="./images/skills/shield-boomerang.png" alt="skill">
               </a>
-              <a tabindex="21" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Blessed Hammer"
                 data-bs-content="Summons a magic hammer that rotates around you and deals damage to enemies hit.">
                 <img class="skill-image" src="./images/skills/blessed-hammer.png" alt="skill">
               </a>
-              <a tabindex="22" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Might"
                 data-bs-content="The Paladin's ultimate ability: Fully heal then grants double attack damage & movement speed for a period of time.">
                 <img class="skill-image" src="./images/skills/might.png" alt="skill">
@@ -343,21 +347,21 @@
             <p>With the ability to relate to the spirit, they can conjure powerful holy magic from afar that will hurt
               their enemies and aid their friends.</p>
             <div class="skills-list">
-              <a tabindex="23" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Heal" data-bs-content="Restores HP.">
                 <img class="skill-image" src="./images/skills/heal.png" alt="skill">
               </a>
-              <a tabindex="24" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Magnus Exorcismus"
                 data-bs-content="Deals holy damage to enemies in a large area.">
                 <img class="skill-image" src="./images/skills/magnus-exorcismus.png" alt="skill">
               </a>
-              <a tabindex="25" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Adoramus"
                 data-bs-content="The Priest's ultimate ability. Deal holy damage to all enemies on your screen.">
                 <img class="skill-image" src="./images/skills/adoramus.png" alt="skill">
               </a>
-              <a tabindex="26" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
+              <a tabindex="0" class="skill-link" role="button" data-bs-toggle="popover" data-bs-placement="top"
                 data-bs-trigger="focus" title="Redemption"
                 data-bs-content="The Priest's ultimate ability: Sacrifice yourself to resurrect and heal all other party members.">
                 <img class="skill-image" src="./images/skills/redemption.png" alt="skill">
@@ -400,24 +404,24 @@
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
           <img class="thumbnail" src="./images/gallery/screenshot11.jpg" title="Himinn Castle Courtyard"
-            alt="screenshot image 6">
+            alt="screenshot image 7">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
           <img class="thumbnail" src="./images/gallery/screenshot7.jpg" title="Geffen under Siege"
-            alt="screenshot image 7">
+            alt="screenshot image 8">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
-          <img class="thumbnail" src="./images/gallery/screenshot12.jpg" title="Amatsu Shrine" alt="screenshot image 7">
+          <img class="thumbnail" src="./images/gallery/screenshot12.jpg" title="Amatsu Shrine" alt="screenshot image 9">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
-          <img class="thumbnail" src="./images/gallery/screenshot10.jpg" title="Volcano Trail" alt="screenshot image 7">
+          <img class="thumbnail" src="./images/gallery/screenshot10.jpg" title="Volcano Trail" alt="screenshot image 10">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
           <img class="thumbnail" src="./images/gallery/screenshot9.jpg" title="The jungles of kurast"
-            alt="screenshot image 7">
+            alt="screenshot image 11">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
-          <img class="thumbnail" src="./images/gallery/screenshot8.jpg" title="The Lost City" alt="screenshot image 7">
+          <img class="thumbnail" src="./images/gallery/screenshot8.jpg" title="The Lost City" alt="screenshot image 12">
         </div>
       </div>
     </section>

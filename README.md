@@ -17,8 +17,8 @@ A fully responsive, fast and SEO friendly website that showcases a video game I 
 
 ### Tech Stack:
 <ul>
-  <li> HTML5, CSS3, JavaScript</li>
-  <li> Bootstrap 5 </li>
+  <li> HTML5, CSS3 (Flexbox), JavaScript</li>
+  <li> Bootstrap 5 (grid layout, navbar, image carousel, popovers)</li>
 </ul>
 
 ### Planned Features:

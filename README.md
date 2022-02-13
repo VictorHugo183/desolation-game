@@ -37,6 +37,10 @@ This is a solo project which involved developing all the maps using both the RPG
 Find out more about the game by visiting the <a href="https://victorhugo183.github.io/desolation-game/" target="_blank">website.</a>
 
 ### Change Log:
+v1.1.1
+<ul>
+  <li> Added favicons to all pages. </li>
+</ul>
 v1.1.0
 <ul>
   <li>Replaced key features GIF with a compressed .MOV video, cutting the file size down by 40% while improving image quality</li>
@@ -49,4 +53,5 @@ v1.1.0
   <li> https://tinypng.com/ to compress image files with no noticeable loss in quality. </li>
   <li> https://metatags.io/ to check the validity of HTML meta tags. </li>
   <li> https://fontawesome.com/ for the footer icons. </li>
+  <li> http://faviconit.com/ to generate favicon files. </li>
 </ul>
